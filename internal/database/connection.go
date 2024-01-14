@@ -6,6 +6,7 @@ import (
 	"time"
 
 	"github.com/exaring/otelpgx"
+	"github.com/jackc/pgx/v5/pgxpool"
 )
 
 var Conn *pgxpool.Pool
